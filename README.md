@@ -33,3 +33,7 @@ npx playwright test
 Playwright mặc định dùng `/usr/bin/chromium` đã có trong môi trường. Test cần máy chủ dev tại cổng 5173. Có kiểm tra chỉnh kích thước, chuyển góc nhìn, thêm/xóa bàn, xuất/nhập bố trí, lưu sau tải lại, lỗi nhập và màn hình di động.
 
 `npm run build` tạo `dist/index.html` tự chứa JavaScript, CSS, font và các trang tham chiếu. Tải tệp HTML này, mở bằng Chrome/Edge có WebGL để thao tác và gửi cho đối tác. Không cần kết nối mạng sau khi tải; một số trình duyệt doanh nghiệp có thể chặn mở tệp HTML cục bộ, khi đó dùng hosting tĩnh. `node scripts/check-standalone.mjs` kiểm tra bản đóng gói với mọi yêu cầu tài nguyên bên ngoài bị chặn. Có thể đưa thư mục này lên dịch vụ hosting tĩnh HTTPS (Netlify, Cloudflare Pages hoặc Vercel) để gửi một đường dẫn cho đối tác. Chưa triển khai công khai trong phiên này. Không cần API key, backend hoặc cơ sở dữ liệu; font và thư viện được đóng gói cùng ứng dụng.
+
+## Bảng hiệu chi tiết
+
+Chọn **Bảng hiệu chi tiết** hoặc nhấp bảng hiệu trên mô hình để xem gần; kéo để xem cạnh hộp và chữ nổi. Hộp sâu 15 cm, cao 140 cm; dải kem trên 85 cm, dải đỏ 35 cm, dải kem dưới 20 cm. Viền gỗ 3 cm, nổi 1.5 cm; các dòng chữ là hình học 3D dày 1 cm. Cụm tên và biểu tượng tô/đũa/PTT được dựng lại từ hình tham chiếu PDF, không phải tệp vector logo gốc. Chữ dùng DejaVu Sans Condensed Bold có dấu tiếng Việt; giấy phép kèm tại src/assets/FONT-LICENSE.txt. Bảng rộng 6 m mặc định và đi theo chiều ngang mặt bằng khi chỉnh.
